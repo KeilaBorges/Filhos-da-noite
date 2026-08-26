@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    color: hwb(39 4% 15%);
+    font-family: 'times new roman', serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+body {
+    background-image: url('fundo2.png'); 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    /* Cor de fundo escura de segurança e cor padrão do texto */
+    background-color: #121212;
+    color:rgb(219, 119, 4)
+}
+    .conteudo-principal {
+    max-width: 1024px;
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+}
+
+P{
+    text-align: center;
+    color: lab(97.6% 1.67 0.58);
+    font-family: 'times new roman', serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(99, 73, 3, 0.9);
+}
+.menu-jogadores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.menu-vilões {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-rpg {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    background-color: rgba(226, 137, 4, 0.85);
+    color: rgb(255, 248, 240);
+    font-family: 'times new roman', serif;
+    font-size:1.05em;
+    font-weight: bold;
+    text-decoration: none;
+    border:2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-rpg:hover {
+    background-color: rgba(12, 12, 11, 0.95);
+    color:rgba(233, 233, 10, 0.877)
+    border-color: #fff;
+    border-shadow: 0 0 15px rgba(226, 93, 4, 0.8);
+    transform: translateY(-3px);
+}
