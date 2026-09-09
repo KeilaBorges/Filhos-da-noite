@@ -1,3 +1,13 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1 {
     text-align: center;
     color: hwb(39 4% 15%);
@@ -63,4 +73,15 @@ P{
     border-color: #fff;
     border-shadow: 0 0 15px rgba(226, 93, 4, 0.8);
     transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    .card-detalhes {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-p {
+        text-align: center;
+    }
 }
